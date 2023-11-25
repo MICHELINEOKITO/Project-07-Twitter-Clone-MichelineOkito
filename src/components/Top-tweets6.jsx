@@ -1,8 +1,12 @@
-import {BsStars}  from "react-icons/bs";
+import React from "react";
 function TopTweets (){
-    return <div className="top-tweets">
-            <BsStars />
-    </div>
+
+    return (
+        
+             <img src="src/images/Top-Tweets.svg" alt="" className="top-tweets" />
+        
+       
+    )
         
         
 }
