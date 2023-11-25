@@ -22,7 +22,9 @@ export default function Tweet (){
                                <span className="tweet-title-details">{Tweet.titleTime}</span>
                             </div>
                             <div className="tweet-text">{Tweet.textTweet}</div>
-                            <div className="tweet-image"></div>
+                            <div className="tweet-image">
+                                <img src={Tweet.imageTweet} alt="" />
+                            </div>
                 
                         </div>
                 
