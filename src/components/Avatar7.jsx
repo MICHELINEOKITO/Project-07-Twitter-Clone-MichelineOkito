@@ -2,9 +2,8 @@ import React from "react";
 // import profile from "./images/profile-photo.png"
 function Avatar (){
     return(
-        <div className="avatar">
-            <img src="src\images\profile-photo.png" alt="Photo profile" />
-        </div>
+            <img src="src/images/Profile-Photo.svg" alt="Photo profile" className="avatar" />
+
     )
 }
 export default Avatar;
