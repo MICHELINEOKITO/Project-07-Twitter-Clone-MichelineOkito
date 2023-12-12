@@ -1,4 +1,4 @@
-import React from "react";
+
 import ObjetsTweeter from "../data/DataTwetter";
 
 export default function Tweet (){
