@@ -1,6 +1,4 @@
 
-
-
 function TweetEditorAction (){
     return (
         <div className="tweet-editor-actions">
