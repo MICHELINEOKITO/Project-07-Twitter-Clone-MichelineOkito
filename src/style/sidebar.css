@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+.sidebar {
+    background-color: #000000;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+  }
+  
+  .sidebar .profile {
+    margin-bottom: 20px;
+   
+  }
+  
+  .sidebar .profile img {
+    margin-top: 21px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  
+  .sidebar .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar .nav li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+ 
+.sidebar .nav li img {
+    margin-right: 20px;
+  }
+  
+
+
+  
+ 
