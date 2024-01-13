@@ -1,3 +1,4 @@
+import TrendsListForYou from "./TrendsListForYou";
 
 
 
@@ -15,8 +16,8 @@ const Trends = () =>{
                 <div className="trends-for-you-title">
                     <h2>Trends for you </h2>
                     <img src="src/images/Settings.svg" alt="" />
-
                 </div>
+                <TrendsListForYou />
 
             </div>
 
