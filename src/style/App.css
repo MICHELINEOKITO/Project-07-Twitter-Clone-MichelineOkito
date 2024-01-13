@@ -217,7 +217,23 @@ body{
     padding-left: 15px;
     
 }
-
+.menu-sidebar{
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+}
+.menu-sidebar li{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+.menu-sidebar li:hover{
+    background-color: #181818;
+    width: 70%;
+    transition: background-color 0.2s ease-out;
+    border-radius: 30px;
+}
 
 
 

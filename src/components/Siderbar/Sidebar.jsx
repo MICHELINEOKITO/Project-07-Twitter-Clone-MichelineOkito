@@ -1,5 +1,4 @@
-import DataSiderbar from "../../data/DataSiderbar";
-import ProfileTweeterSidebar from "./ProfileTweeterSidebar";
+import MenuSidebar from "./MenuSidebar";
 
 function Sidebar (){
     return(
@@ -9,7 +8,8 @@ function Sidebar (){
         </div>
 
         <div className="side-option">
-            
+            <MenuSidebar/>
+
         </div>
 
         <div className="sidebar-footer">
