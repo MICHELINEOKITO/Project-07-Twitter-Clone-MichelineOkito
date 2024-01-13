@@ -12,6 +12,11 @@ const Trends = () =>{
             </div>
 
             <div className="trends-for-you">
+                <div className="trends-for-you-title">
+                    <h2>Trends for you </h2>
+                    <img src="src/images/Settings.svg" alt="" />
+
+                </div>
 
             </div>
 
