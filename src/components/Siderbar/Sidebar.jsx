@@ -8,7 +8,9 @@ function Sidebar (){
             <img src="src/images/Twitter.svg" alt="" />
         </div>
 
-        <div className="side-option"></div>
+        <div className="side-option">
+            
+        </div>
 
         <div className="sidebar-footer">
 
