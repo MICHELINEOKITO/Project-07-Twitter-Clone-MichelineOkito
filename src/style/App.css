@@ -192,3 +192,49 @@ body{
     justify-content: center;
     gap: 20px;
 }
+
+/* style trends */
+div{
+    border: 1px solid #fff;
+}
+.trends{
+    display: flex;
+    flex-direction: column;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 119px;
+    min-height: 1024px;
+    width: 360px;
+    font-family: "inter", sans-serif;
+    margin-right: 150px;
+
+}
+
+.trends-input{
+    display: flex;
+    align-items: center;
+    background-color: rgb(32, 35, 39);
+    border-radius: 42px;
+    margin-top: 6px;
+    height: 42px;
+    width: 350px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.trends-input img{
+    width: 18px;
+    height: 18px;
+    margin: 12px;
+}
+.trends-input input{
+    border: none;
+    outline: none;
+    background-color: rgb(32, 35, 39);
+    padding-left: 25px;
+    color: #fff;
+    font-size: 15px;
+}
+
+

@@ -1,6 +1,7 @@
 import Timeline from '../components/Timeline/Timeline1.jsx';
 import Sidebar from '../components/Siderbar/Sidebar.jsx';
-// import TrendsProfil from '../components/TrendsProfil.jsx';
+import Trends from '../components/Trends/Trends.jsx';
+
 
 
 function Home() {
@@ -8,7 +9,10 @@ function Home() {
     <>
         <Timeline />
         <Sidebar />
-        {/* <TrendsProfil/> */}
+        <Trends />
+
+        
+      
     </>
 
 
