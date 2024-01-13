@@ -250,7 +250,7 @@ div{
     justify-content: space-between;
 }
 
-.trends-list-title{
+.trends-list-title, .trends-list-follow{
     margin-top:10px;
     margin-bottom: 10px;
     padding-top: 5px;
@@ -259,7 +259,7 @@ div{
     transition: background-color 0.3s ease;
 
 }
-.trends-list-title:hover{
+.trends-list-title:hover, .trends-list-follow:hover{
     background-color: rgb(50, 54, 59);
 }
 .trends-title-details{
@@ -277,4 +277,34 @@ div{
     font-weight: bold;
     color: #1D9BF0;
     cursor: pointer;
+}
+ .trends-follow{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(32, 35, 39);
+    border-radius: 15px;
+    min-height: 320px;
+    width: 350px;
+}
+.follow-title{
+    display: flex;
+}
+.follow-list-title{
+    width: 190px;
+    margin-left: 5px;
+}
+.follow-button{
+    background-color: #fff;
+    color: black;
+    width: 73px;
+    height: 31px;
+    margin: 3px;
+    border-radius: 32px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.trendsCopieRigth{
+    position: sticky;
+    top: 0;
 }

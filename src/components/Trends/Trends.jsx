@@ -1,4 +1,5 @@
 import TrendsListForYou from "./TrendsListForYou";
+import TrendsListFollow from "./TrendsFollow";
 
 
 
@@ -18,12 +19,17 @@ const Trends = () =>{
                     <img src="src/images/Settings.svg" alt="" />
                 </div>
                 <TrendsListForYou />
-
             </div>
 
             <div className="trends-follow">
+                <h2>Who to follow</h2>
+                <TrendsListFollow />
+
 
             </div>
+        <div className='trendsCopieRigth'>
+            <span className="tweet-title-details">Terms of Service Privacy Policy cookie Policy Imprint Ads info More ... &copy; 2021 Twitter, Inc.</span>
+        </div>
 
         </div> 
     )
