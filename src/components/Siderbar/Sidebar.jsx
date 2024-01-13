@@ -3,22 +3,18 @@ import ProfileTweeterSidebar from "./ProfileTweeterSidebar";
 
 function Sidebar (){
     return(
-        <div className="sidebar">
-            <div className="profile">
-                <img src="src/images/Tweeter.svg" alt="profile" />
-            </div>
-            <ul className="nav">
-               {DataSiderbar.map((index) =>(
-                <li key={index.name}>
-                    <img src={index.icone} alt="icone" />
-                    <span>{index.name}</span>
-                </li>  
-               )      
-                )}
-            </ul>
-            <button  className="tweet-button">Tweet</button>
-            <ProfileTweeterSidebar/>
+      <div className="sidebar">
+        <div className="sidebar-image-tweeter">
+            <img src="src/images/Twitter.svg" alt="" />
         </div>
+
+        <div className="side-option"></div>
+
+        <div className="sidebar-footer">
+
+        </div>
+
+      </div>
     )
 } 
 export default Sidebar;

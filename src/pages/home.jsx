@@ -7,8 +7,8 @@ import Trends from '../components/Trends/Trends.jsx';
 function Home() {
   return ( 
     <>
-        <Timeline />
         <Sidebar />
+        <Timeline />
         <Trends />
 
         
