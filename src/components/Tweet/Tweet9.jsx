@@ -1,5 +1,5 @@
 
-import ObjetsTweeter from "../data/DataTwetter";
+import ObjetsTweeter from "../../data/DataTwetter";
 
 export default function Tweet (){
     return (

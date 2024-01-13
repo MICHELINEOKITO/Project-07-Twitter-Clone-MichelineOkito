@@ -1,5 +1,5 @@
-import DataSiderbar from "../data/DataSiderbar";
-import ProfileButton from "./profile-button";
+import DataSiderbar from "../../data/DataSiderbar";
+import ProfileTweeterSidebar from "./ProfileTweeterSidebar";
 
 function Sidebar (){
     return(
@@ -17,7 +17,7 @@ function Sidebar (){
                 )}
             </ul>
             <button  className="tweet-button">Tweet</button>
-            <ProfileButton/>
+            <ProfileTweeterSidebar/>
         </div>
     )
 } 

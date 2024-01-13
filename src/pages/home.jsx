@@ -1,5 +1,6 @@
-import Timeline from '../components/Timeline1.jsx';
-import Sidebar from '../components/Sidebar.jsx';
+import Timeline from '../components/Timeline/Timeline1.jsx';
+import Sidebar from '../components/Siderbar/Sidebar.jsx';
+// import TrendsProfil from '../components/TrendsProfil.jsx';
 
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
     <>
         <Timeline />
         <Sidebar />
+        {/* <TrendsProfil/> */}
     </>
 
 

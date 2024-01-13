@@ -1,5 +1,5 @@
 
-import Avatar7 from "./Avatar7";
+import Avatar7 from "../Timeline/Avatar7";
 import TweetEditorForm from "./Tweet-editor-form8";
 
 export default function TweetEditor(){

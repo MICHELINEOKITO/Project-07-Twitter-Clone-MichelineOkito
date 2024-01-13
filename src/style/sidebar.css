@@ -1,5 +1,7 @@
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
     background-color: #000000;
     width: 250px;
     position: fixed;
@@ -53,20 +55,42 @@
 
   }
 
-/* Profile button code */
+/* ProfileTweeterSidebar code */
 
-.profile-button{
-  border-radius: 50%; 
-  margin: 1rem; 
-  padding: 1rem; 
-  font-size: 2rem;
-  text-align: center;
+.contener-profile-tweet-sidebar{
+  display: flex;
+  gap: 10px;
+  position: fixed;
+  bottom: 0px;
+  width: 251px;
+  height: 64px;
+  /* margin-top: 10px; */
 }
 
-.text-content{
+.compte-in-sidebar-avatar{
+  width: 40px;
+  height: 40PX;
+  margin: 5px;
+}
+.compte-icon{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  gap:0;
+  
+}
+
+.title-icon{
+  width: 200px;
+}
+.compMortIcon{
+padding-top: 15px;  
+}
+
+::-webkit-scrollbar{
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #fff;
 }
   
 
