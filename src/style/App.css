@@ -250,3 +250,31 @@ div{
     justify-content: space-between;
 }
 
+.trends-list-title{
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.trends-list-title:hover{
+    background-color: rgb(50, 54, 59);
+}
+.trends-title-details{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.title-details{
+    color: #6E767D;
+}
+.trend-author{
+    font-weight: bold;
+}
+.show-more-title{
+    font-weight: bold;
+    color: #1D9BF0;
+    cursor: pointer;
+}
