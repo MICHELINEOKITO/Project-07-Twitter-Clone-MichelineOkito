@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 
-const Navigation = () =>{
+const Navigation = ({src, url, text,className}) =>{
     return(
         <NavLink to={url} className={className}>
-            <img src={src}  />
+            <img src={src} />
             <p>{text}</p>
         </NavLink>
 

@@ -1,8 +1,7 @@
 import Avatar from "../Timeline/Avatar7";
-import { VscLockSmall } from "react-icons/vsc";
-import { BsThreeDots } from "react-icons/bs";
+import Cadenas from "../../images/GroupCADENA.svg"
 
-const ProfileTweeterSidebar = () =>{
+const ProfileOnSidebar = () =>{
    
 
          return (
@@ -11,14 +10,14 @@ const ProfileTweeterSidebar = () =>{
                       <div className="title-icon">
                           <div className="compte-icon">
                             <p>Bradly Ortiz</p>
-                            <VscLockSmall/>
+                            <img src={Cadenas} alt="" />
                           </div>
                           <span className="tweet-title-details">@bradly</span>
                       </div>
-                      <BsThreeDots />
+                      <div className="compt-more"><img src="src/images/More-2.svg" alt="" /></div>
                 </div>
           );
         };
 
 
-export default ProfileTweeterSidebar;
+export default ProfileOnSidebar;

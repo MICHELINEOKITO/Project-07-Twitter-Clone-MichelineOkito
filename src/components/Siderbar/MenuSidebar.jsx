@@ -1,4 +1,17 @@
+import Home from "../../images/Home-fill.svg";
+import Explore from "../../images/Explore.svg";
+import Notifications from "../../images/Notifications.svg";
+import Messages from "../../images/Messages.svg";
+import Bookmarks from "../../images/Bookmarks.svg";
+import Lists from "../../images/Lists.svg";
+import Profile from "../../images/Profile-photo.svg";
+import More from "../../images/More.svg";
 import Navigation from "./Navigation";
+
+
+
+
+
 
 
 const MenuSidebar = () =>{
@@ -6,31 +19,38 @@ const MenuSidebar = () =>{
         <nav>
             <ul className="menu-sidebar">
 
-                {/* <li>
-                    <Navigation text={""} src={""} url={""} className={""} />
+                 <li className="home">
+                    <Navigation text={"Home"} src={Home} url={"/"} className={"navLink"} />
                 </li>
-                <li>
-                    <Navigation text={""} src={""} url={""} className={""} />
+
+                <li className="explore">
+                    <Navigation text={"Explore"} src={Explore} url={"/Explore"} className={"navLink"} />
                 </li>
-                <li>
-                    <Navigation text={""} src={""} url={""} className={""} />
+
+                <li className="notifications">
+                    <Navigation text={"Notifications"} src={Notifications} url={"/Notifications"} className={"navLink"} />
                 </li>
-                <li>
-                    <Navigation text={""} src={""} url={""} className={""} />
+
+                <li className="messages">
+                    <Navigation text={"Messages"} src={Messages} url={"/Messages"} className={"navLink"} />
                 </li>
-                <li>
-                    <Navigation text={""} src={""} url={""} className={""} />
+
+                <li className="bookmarks">
+                    <Navigation text={"Bookmarks"} src={Bookmarks} url={"/Bookmarks"} className={"navLink"} />
                 </li>
-                <li>
-                    <Navigation text={""} src={""} url={""} className={""} />
+
+                <li className="lists">
+                    <Navigation text={"Lists"} src={Lists} url={"/Lists"} className={"navLink"} />
                 </li>
-                <li>
-                    <Navigation text={""} src={""} url={""} className={""} />
+
+                <li className="profile">
+                    <Navigation text={"Profile"} src={Profile} url={"/Profile"} className={"navLink"} />
                 </li>
-                <li>
-                    <Navigation text={""} src={""} url={""} className={""} />
+
+                <li className="more">
+                    <Navigation text={"More"} src={More} url={"/More"} className={"navLink"} />
                 </li>
-                 */}
+                 
 
                 
             </ul>
