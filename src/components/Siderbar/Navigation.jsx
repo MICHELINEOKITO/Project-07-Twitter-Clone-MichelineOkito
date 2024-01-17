@@ -1,12 +1,35 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
-const Navigation = ({src, url, text,className}) =>{
-    return(
-        <NavLink to={url} className={className}>
-            <img src={src} />
-            <p>{text}</p>
-        </NavLink>
+// const Navigation = ({src, url, text,className}) =>{
+//     return(
+//         <NavLink to={url} className={className}>
+//             <img src={src} />
+//             <p>{text}</p>
+//         </NavLink>
 
-    )
+//     )
+// }
+// export default Navigation;
+
+
+import { NavLink } from "react-router-dom"
+
+function Navigation({src, url, text, className}) {
+  return (
+      <NavLink to={url} className={className}>
+        <img src={src} />
+        <p>{text}</p>
+      </NavLink>
+  )
 }
-export default Navigation;
+
+export default Navigation
+
+
+
+
+
+
+
+
+
