@@ -1,6 +1,12 @@
 
 import Layout from "./components/layout.jsx";
 import Home from "./pages/home.jsx";
+import Explore from "./components/Explore/Explore.jsx";
+import Notifications from "./components/Notification/Notification.jsx";
+import Messages from "./components/Message/Message.jsx";
+import Bookmarks from "./components/Bookmark/Bookmarks.jsx";
+import List from "./components/List/List.jsx";
+import Profile from "./components/Profile/Profile.jsx";
 import('./style/reset.css');
 import('./style/App.css');
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -11,12 +17,12 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={ <Home />} />
-          <Route path="/" element={ <Home />} />
-          <Route path="/" element={ <Home />} />
-          <Route path="/" element={ <Home />} />
-          <Route path="/" element={ <Home />} />
-          <Route path="/" element={ <Home />} />
-          <Route path="/" element={ <Home />} />
+          <Route path="/explore" element={ <Explore />} />
+          <Route path="/notifications" element={ <Notifications />} />
+          <Route path="/messages" element={ <Messages />} />
+          <Route path="/bookmarks" element={ <Bookmarks />} />
+          <Route path="/lists" element={ <List />} />
+          <Route path="/profile" element={ <Profile />} />
         </Routes>
       </BrowserRouter>
      

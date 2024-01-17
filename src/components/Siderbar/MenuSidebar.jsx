@@ -19,7 +19,7 @@ const MenuSidebar = () =>{
                 </li>
 
                 <li className="explore">
-                    <Navigation text={"Explore"} src={Explore} url={"/Explore"} className={"navLink"} />
+                  <Navigation text={"Explore"} src={Explore} url={"/Explore"} className={"navLink"} />
                 </li>
 
                 <li className="notifications">
