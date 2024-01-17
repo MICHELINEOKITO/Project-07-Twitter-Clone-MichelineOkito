@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 
-div{
+/* div{
     border: 1px solid #fff;
-}
+} */
 
 body{
     background-color: black;
@@ -203,7 +203,6 @@ body{
 .sidebar{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     padding-top: 20px;
     height: 100vh;
     width: 275px;
@@ -251,8 +250,39 @@ body{
     margin: 6px;
 }
 
-.contener-profile-tweet-sidebar{
+.compte-in-sidebar-avatar{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+
+}
+.title-icon{
+    width: 200px;
+
+}
+.compte-icon{
     display: flex;
+}
+.compt-more{
+    padding-top: 15px;
+}
+
+
+
+
+
+.sidebar-footer{
+    margin-top: auto;
+
+}
+.button-for-sidebar{
+   font-weight: bolder;
+   width: 225px;
+   height: 52px;
+   font-size: 17px;
+   margin: 0 20px;
+
+
 }
 
 

@@ -49,10 +49,9 @@ const MenuSidebar = () =>{
                 <li className="more">
                     <Navigation text={"More"} src={More} url={"/More"} className={"navLink"} />
                 </li> 
-                 
-
-                
+                  <button className="button button-for-sidebar">Tweet</button>
             </ul>
+
         </nav>
 
     )
