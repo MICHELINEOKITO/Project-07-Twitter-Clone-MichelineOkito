@@ -234,6 +234,21 @@ body{
     transition: background-color 0.2s ease-out;
     border-radius: 30px;
 }
+.navLink{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.contener-profile-tweet-sidebar{
+    display: flex;
+    gap: 10px;
+    width: 251px;
+    height: 64px;
+    margin: 6px;
+}
 
 
 
