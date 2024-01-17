@@ -203,6 +203,7 @@ body{
 .sidebar{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     padding-top: 20px;
     height: 100vh;
     width: 275px;
@@ -250,6 +251,9 @@ body{
     margin: 6px;
 }
 
+.contener-profile-tweet-sidebar{
+    display: flex;
+}
 
 
 
@@ -390,4 +394,19 @@ body{
 .trendsCopieRigth{
     position: sticky;
     top: 0;
+}
+
+/* style icones */
+
+.tweet-action-button-react{
+    display: flex;
+    width: 90px;
+    height: 50px;
+    padding: 2px;
+    cursor: pointer;
+}
+.tweet-action-button-react img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
 }
