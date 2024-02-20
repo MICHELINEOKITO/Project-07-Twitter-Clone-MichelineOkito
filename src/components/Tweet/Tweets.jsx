@@ -1,5 +1,5 @@
 
-import Tweet from "./Tweet9";
+import Tweet from "./Tweet";
 export default function Tweets(){
     return (
         <div className="">

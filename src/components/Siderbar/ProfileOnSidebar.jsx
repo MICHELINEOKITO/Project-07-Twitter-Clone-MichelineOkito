@@ -1,4 +1,4 @@
-import Avatar from "../Timeline/Avatar7";
+import Avatar from "../Timeline/Avatar";
 import Cadenas from "../../images/GroupCADENA.svg"
 
 const ProfileOnSidebar = () =>{

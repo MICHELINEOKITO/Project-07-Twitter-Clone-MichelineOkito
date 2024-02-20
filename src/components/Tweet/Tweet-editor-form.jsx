@@ -1,6 +1,6 @@
 
-import TweetEditorInput from "./Tweet-editor-input20";
-import TweetEditorButtons from "./Tweet-editor-buttons.jsx21";
+import TweetEditorInput from "./Tweet-editor-input.jsx";
+import TweetEditorButtons from "./Tweet-editor-buttons.jsx";
 function TweetEditorForm(){
     return( 
         <div className="tweet-editor-form ">

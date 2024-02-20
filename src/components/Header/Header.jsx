@@ -1,6 +1,6 @@
 
-import PageTitle from "./Page-title5";
-import TopTweets from "./Top-tweets6";
+import PageTitle from "./Page-title";
+import TopTweets from "./Top-tweets";
 
 export default function Header() {
     return(

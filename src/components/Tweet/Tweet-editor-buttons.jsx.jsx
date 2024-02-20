@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../ButtonTweet/Button23";
-import TweetEditorAction from "./Tweet-editor-actions22";
+import Button from "../ButtonTweet/Button.jsx";
+import TweetEditorAction from "./Tweet-editor-actions.jsx";
 export default function TweetEditorButtons(){
     return(
         <div className="tweet-editor-buttons">

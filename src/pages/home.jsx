@@ -1,4 +1,4 @@
-import Timeline from '../components/Timeline/Timeline1.jsx';
+import Timeline from '../components/Timeline/Timeline.jsx';
 import Sidebar from '../components/Siderbar/Sidebar.jsx';
 import Trends from '../components/Trends/Trends.jsx';
 

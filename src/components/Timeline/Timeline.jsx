@@ -1,6 +1,6 @@
-import Header from "../Header/Header2";
-import TweetEditor from "../Tweet/Tweet-editor3";
-import Tweets from "../Tweet/Tweets4";
+import Header from "../Header/Header";
+import TweetEditor from "../Tweet/Tweet-editor";
+import Tweets from "../Tweet/Tweets";
 function Timeline() {
     return <div className="timeline">
         <Header />

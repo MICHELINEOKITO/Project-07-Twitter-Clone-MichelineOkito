@@ -1,4 +1,4 @@
-import PageTitle from "../Header/Page-title5"
+import PageTitle from "../Header/Page-title"
 
 const ExploreHeader = () =>{
 
