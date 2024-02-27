@@ -7,9 +7,14 @@ import Lists from "../../images/Lists.svg";
 import Profile from "../../images/Profile.svg";
 import More from "../../images/More.svg";
 import Navigation from "./Navigation";
+import DataUtilisateur from "../../data/DataUtilisateur";
+import { Link } from "react-router-dom";
 
 
 const MenuSidebar = () =>{
+    const currentUser = DataUtilisateur.find((user) => {
+        return user.isLogin === true
+    })
     return(
         <nav>
             <ul className="menu-sidebar">
@@ -19,35 +24,35 @@ const MenuSidebar = () =>{
                 </li>
 
                 <li className="explore">
-                  <Navigation text={"Explore"} src={Explore} url={"/Explore"} className={"navLink"} />
+                  <Navigation text={"Explore"} src={Explore}  className={"navLink"} />
                 </li>
 
                 <li className="notifications">
-                    <Navigation text={"Notifications"} src={Notifications} url={"/Notifications"} className={"navLink"} />
+                    <Navigation text={"Notifications"} src={Notifications}  className={"navLink"} />
                 </li>
 
                  <li className="messages">
-                    <Navigation text={"Messages"} src={Messages} url={"/Messages"} className={"navLink"} />
+                    <Navigation text={"Messages"} src={Messages} className={"navLink"} />
                 </li>
               
 
                 <li className="bookmarks">
-                    <Navigation text={"Bookmarks"} src={Bookmarks} url={"/Bookmarks"} className={"navLink"} />
+                    <Navigation text={"Bookmarks"} src={Bookmarks}  className={"navLink"} />
                 </li>
 
   
                 <li className="lists">
-                    <Navigation text={"Lists"} src={Lists} url={"/Lists"} className={"navLink"} />
+                    <Navigation text={"Lists"} src={Lists} className={"navLink"} />
                 </li>
                
-
-                <li className="profile">
-                    <Navigation text={"Profile"} src={Profile} url={"/Profile"} className={"navLink"} />
-                </li>
+                <Link to={`/${currentUser.userName}`}>
+                <li className="navLink"><img src={Profile} alt="" />Profile</li>
+                </Link>
+                
                  
 
                 <li className="more">
-                    <Navigation text={"More"} src={More} url={"/More"} className={"navLink"} />
+                    <Navigation text={"More"} src={More} className={"navLink"} />
                 </li> 
                   <button className="button button-for-sidebar">Tweet</button>
             </ul>

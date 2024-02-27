@@ -1,15 +1,14 @@
 import Timeline from '../components/Timeline/Timeline.jsx';
-import Sidebar from '../components/Siderbar/Sidebar.jsx';
-import Trends from '../components/Trends/Trends.jsx';
+
 
 
 
 function Home() {
   return ( 
     <>
-        <Sidebar />
+        
         <Timeline />
-        <Trends />
+        
 
         
       

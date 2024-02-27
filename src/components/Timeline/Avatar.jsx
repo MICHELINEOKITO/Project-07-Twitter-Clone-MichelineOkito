@@ -1,7 +1,11 @@
+import DataUtilisateur from "../../data/DataUtilisateur";
 
 function Avatar (){
+    const currentUser = DataUtilisateur.find((user) => {
+        return user.isLogin === true
+    })
     return(
-            <img src="src/images/Profile-Photo.svg" alt="Photo profile" className="avatar" />
+            <img src={currentUser.avatar} alt="Photo profile" className="avatar" />
 
     )
 }

@@ -11,16 +11,20 @@ export default function Tweet (){
                 
                 <div className="tweet" key={Tweet.id}>
                     <Link to={`/${Tweet.title}`}>
-                     <div className="tweet-avatar"><img src={Tweet.tweetAvatar} alt="" /></div>
+                        <div className="tweet-avatar"><img src={Tweet.tweetAvatar} alt="" /></div>
                     </Link>
                     <div className="tweet-content">
                 
                         <div className="tweet-body">
                 
                             <div className="tweet-title">
-                               <span className="tweet-title-author">{Tweet.title}</span>
+                            <Link to={`/${Tweet.title}`}>
+                                <span className="tweet-title-author">{Tweet.title}</span>
+                            </Link>
                                <img src={Tweet.iconeCertification} alt="" />
-                               <span className="tweet-title-details">{Tweet.smallTitle}</span>
+                            <Link to={`/${Tweet.title}`}>
+                                     <span className="tweet-title-details">{Tweet.smallTitle}</span>
+                            </Link>
                                <span className="tweet-title-details">.</span>
                                <span className="tweet-title-details">{Tweet.titleTime}</span>
                             </div>

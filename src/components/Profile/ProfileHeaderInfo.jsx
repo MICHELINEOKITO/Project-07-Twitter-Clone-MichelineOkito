@@ -1,7 +1,9 @@
 import PageTitle from "../Header/Page-title";
 import ProfileImage from "../../images/profile-photo.png"
 
+
 const ProfileHeaderInfo = () =>{
+    
     return(
         <div className="timeline">
             <div className="header">
