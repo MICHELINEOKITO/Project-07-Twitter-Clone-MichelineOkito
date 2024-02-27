@@ -13,20 +13,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
-    <Layout>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={ <Home />} />
-          <Route path="/explore" element={ <Explore />} />
-          <Route path="/notifications" element={ <Notifications />} />
-          <Route path="/messages" element={ <Messages />} />
-          <Route path="/bookmarks" element={ <Bookmarks />} />
-          <Route path="/lists" element={ <List />} />
-          <Route path="/profile" element={ <Profile />} />
-        </Routes>
-      </BrowserRouter>
-     
-    </Layout>
+    <div></div>
   )
   
 }

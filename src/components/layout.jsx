@@ -1,10 +1,11 @@
+import { Outlet } from "react-router-dom";
 
 
 function Layout({children}) {
     return (
         <>
             <div className="left-sidebar"/>
-            {children}
+            <Outlet/>
             <div className="right-sidebar" />
         </>
     );

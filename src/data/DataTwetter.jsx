@@ -1,5 +1,7 @@
 const ObjetsTweeter = [
     {
+        userId: 1,
+        id: 0,
     tweetAvatar:"src/images/Tweet-Profile-Photo.svg",
     title:"CNN",
     iconeCertification:"src/images/Verified.svg",
@@ -14,8 +16,10 @@ const ObjetsTweeter = [
 },
 
 {
+    userId: 2,
+    id: 1,
     tweetAvatar:"src/images/Tweet-Profile-Photo new york.svg",
-    title:"The New York Times",
+    title:"The New York Time",
     iconeCertification:"src/images/Verified.svg",
     smallTitle: "@anytimes",
     titleTime: "2h",
@@ -28,8 +32,10 @@ const ObjetsTweeter = [
 },
 
 {
+    userId: 3,
+    id: 2,
     tweetAvatar:"src/images/Tweeter.svg",
-    title:"Twitter",
+    title:"Tweeter",
     iconeCertification:"src/images/Verified.svg",
     smallTitle: "@Twitter",
     titleTime: "Oct 29",
@@ -42,8 +48,10 @@ const ObjetsTweeter = [
 },
 
 {
+    userId: 3,
+    id: 3,
     tweetAvatar:"src/images/Tweeter.svg",
-    title:"Twitter",
+    title:"Tweeter",
     iconeCertification:"src/images/Verified.svg",
     smallTitle: "@Twitter",
     titleTime: "Oct 4",
@@ -56,8 +64,10 @@ const ObjetsTweeter = [
 },
 
 {
+    userId: 3,
+    id: 4,
     tweetAvatar:"src/images/Tweeter.svg",
-    title:"Twitter",
+    title:"Tweeter",
     iconeCertification:"src/images/Verified.svg",
     smallTitle: "@Twitter",
     titleTime: "Oct 4",

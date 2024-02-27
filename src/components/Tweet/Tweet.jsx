@@ -3,15 +3,16 @@ import ObjetsTweeter from "../../data/DataTwetter";
  import IconComment from "../AllIcons/IconComment";
  import IconRetweet from "../AllIcons/IconRetweet";
  import IconLike from "../AllIcons/IconLike";
+import { Link } from "react-router-dom";
 export default function Tweet (){
     return (
         <>
-            {ObjetsTweeter.map((Tweet, index)=>(
+            {ObjetsTweeter.map((Tweet)=>(
                 
-                <div className="tweet" key={index}>
-                
-                    <div className="tweet-avatar"><img src={Tweet.tweetAvatar} alt="" /></div>
-                
+                <div className="tweet" key={Tweet.id}>
+                    <Link to={`/${Tweet.title}`}>
+                     <div className="tweet-avatar"><img src={Tweet.tweetAvatar} alt="" /></div>
+                    </Link>
                     <div className="tweet-content">
                 
                         <div className="tweet-body">
