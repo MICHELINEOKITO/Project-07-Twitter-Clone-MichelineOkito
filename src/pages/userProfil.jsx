@@ -4,12 +4,21 @@ import { GrLinkPrevious } from "react-icons/gr";
 import { RxLink2 } from "react-icons/rx";
 import { SlCalender } from "react-icons/sl";
 import { RiUserFollowFill } from "react-icons/ri";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import ObjetsTweeter from "../data/DataTwetter";
+import Tweet from "../components/Tweet/Tweet";
 
 
 
 
 const UserProfil = () =>{
+
+  useEffect(() => {
+    window.scrollTo({
+      top : 0,
+      left : 0
+    })
+  },[])
     const {userName} = useParams()
     const [selected, setSelected] = useState("posts");
 
@@ -17,6 +26,12 @@ const UserProfil = () =>{
     const oneProfil = DataUtilisateur.find((profil) => {
         return profil.userName == userName
     })
+
+    const userTweet = ObjetsTweeter.filter((tweet) =>{
+      return tweet.userId == oneProfil?.userId
+    })
+
+  
 
     const handleClick = (tab) => {
         setSelected(tab);
@@ -73,7 +88,7 @@ const UserProfil = () =>{
       <div className="px-5 flex gap-8">
         <p>
           {oneProfil?.abonnemets}{" "}
-          <span className="text-gray-400 text-sm">abonnemets</span>
+          <span className="texTweett-gray-400 text-sm">abonnemets</span>
         </p>
         <p>
           {oneProfil?.abonne}{" "}
@@ -128,7 +143,7 @@ const UserProfil = () =>{
       </ul>
       {selected === "posts" && (
         <div>
-          <h1>la page post</h1>
+          <Tweet tweets={userTweet}/>
         </div>
       )}
       {selected === "affilies" && (
