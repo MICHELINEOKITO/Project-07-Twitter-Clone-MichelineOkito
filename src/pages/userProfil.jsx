@@ -1,12 +1,11 @@
 import { Link, useParams } from "react-router-dom";
-import DataUtilisateur from "../data/DataUtilisateur";
 import { GrLinkPrevious } from "react-icons/gr";
 import { RxLink2 } from "react-icons/rx";
 import { SlCalender } from "react-icons/sl";
 import { RiUserFollowFill } from "react-icons/ri";
 import { useEffect, useState } from "react";
-import ObjetsTweeter from "../data/DataTwetter";
 import Tweet from "../components/Tweet/Tweet";
+import { useTweetContext } from "../context/TweetContext";
 
 
 
@@ -21,13 +20,17 @@ const UserProfil = () =>{
   },[])
     const {userName} = useParams()
     const [selected, setSelected] = useState("posts");
+    const {dataTweet} = useTweetContext()
+    const {dataUser} = useTweetContext()
 
     
-    const oneProfil = DataUtilisateur.find((profil) => {
+
+    
+    const oneProfil = dataUser.find((profil) => {
         return profil.userName == userName
     })
 
-    const userTweet = ObjetsTweeter.filter((tweet) =>{
+    const userTweet = dataTweet.filter((tweet) =>{
       return tweet.userId == oneProfil?.userId
     })
 

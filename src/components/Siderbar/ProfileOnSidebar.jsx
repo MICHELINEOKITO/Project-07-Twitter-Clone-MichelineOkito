@@ -1,11 +1,13 @@
 
 import Cadenas from "../../images/GroupCADENA.svg"
-import DataUtilisateur from "../../data/DataUtilisateur";
 import { Link } from "react-router-dom";
+import { useTweetContext } from "../../context/TweetContext";
 
 const ProfileOnSidebar = () =>{
+  const {dataUser} = useTweetContext()
 
-  const currentUser = DataUtilisateur.find((user) => {
+
+  const currentUser = dataUser.find((user) => {
     return user.isLogin === true
 })
    

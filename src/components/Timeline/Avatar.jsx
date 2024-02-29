@@ -1,7 +1,7 @@
-import DataUtilisateur from "../../data/DataUtilisateur";
-
+import { useTweetContext } from "../../context/TweetContext";
 function Avatar (){
-    const currentUser = DataUtilisateur.find((user) => {
+    const {dataUser} =  useTweetContext()
+    const currentUser = dataUser.find((user) => {
         return user.isLogin === true
     })
     return(

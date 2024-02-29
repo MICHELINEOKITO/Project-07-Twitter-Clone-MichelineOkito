@@ -1,11 +1,13 @@
 
+import { useTweetContext } from "../../context/TweetContext";
 import Tweet from "./Tweet";
-import ObjetsTweeter from "../../data/DataTwetter";
+
 
 export default function Tweets(){
+    const {dataTweet} = useTweetContext()
     return (
         <div className="">
-            <Tweet tweets={ObjetsTweeter}/>
+            <Tweet tweets={dataTweet}/>
         </div>
     )
 }

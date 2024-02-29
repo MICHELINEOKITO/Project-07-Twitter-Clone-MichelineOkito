@@ -7,12 +7,14 @@ import Lists from "../../images/Lists.svg";
 import Profile from "../../images/Profile.svg";
 import More from "../../images/More.svg";
 import Navigation from "./Navigation";
-import DataUtilisateur from "../../data/DataUtilisateur";
 import { Link } from "react-router-dom";
+import { useTweetContext } from "../../context/TweetContext";
 
 
 const MenuSidebar = () =>{
-    const currentUser = DataUtilisateur.find((user) => {
+    const {dataUser} = useTweetContext()
+
+    const currentUser = dataUser.find((user) => {
         return user.isLogin === true
     })
     return(
