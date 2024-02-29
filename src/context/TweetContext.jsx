@@ -11,8 +11,12 @@ export const useTweetContext = () =>{
 const TweetProvider = ({children}) =>{
     const [dataTweet, setDataTweet] = useState(ObjetsTweeter)
     const [dataUser, setDataUser] = useState(DataUtilisateur)
+
+    const addTweet = (newTweet) =>{
+        setDataTweet([newTweet, ...dataTweet])
+    }
     return (
-        <TweetContext.Provider value={{dataTweet, dataUser}}>
+        <TweetContext.Provider value={{dataTweet, dataUser, addTweet}}>
             {children}
         </TweetContext.Provider>
     )
