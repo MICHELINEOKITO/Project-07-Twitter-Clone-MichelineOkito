@@ -219,32 +219,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* style trends */
 
 .trends{
@@ -256,7 +230,7 @@ body{
     min-height: 1024px;
     width: 360px;
     font-family: "inter", sans-serif;
-    margin-right: 150px;
+    margin-right: 100;
 
 }
 
@@ -294,10 +268,12 @@ body{
     border-radius: 15px;
     min-height: 426px;
     width: 350px;
+   
 }
 .trends-for-you .trends-for-you-title{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .trends-list-title, .trends-list-follow{
